@@ -1,2 +1,9 @@
 # Godot 4+ specific ignores
 .godot/
+*.import
+*.kra
+*.kra~
+*.png~
+*.gitignore
+*.git
+.gitattributes
