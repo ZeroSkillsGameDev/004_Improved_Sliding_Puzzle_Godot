@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://dci11hljs6gir"]
+
+[ext_resource type="Script" path="res://src/main.gd" id="1_6bcgi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qyiox"]
+size = Vector2(1028, 1028)
+
+[node name="Main" type="Area2D"]
+script = ExtResource("1_6bcgi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(514, 514)
+shape = SubResource("RectangleShape2D_qyiox")
+
+[node name="FullImage" type="Sprite2D" parent="."]
+visible = false
+z_index = 1
+z_as_relative = false
+y_sort_enabled = true
+position = Vector2(516, 516)

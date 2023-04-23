@@ -11,5 +11,12 @@ config_version=5
 [application]
 
 config/name="Improved Sliding Puzle"
+run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.0", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1028
+window/size/viewport_height=1028
+window/stretch/mode="viewport"
